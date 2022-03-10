@@ -1,0 +1,152 @@
+/*Big tablet 1200px-1024px*/
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/*Medium tablet 1023px-768px*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  .mobile-nav-icon {
+    display: block;
+  }
+  .main-nav {
+    display: none;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .main-nav li {
+    display: block;
+  }
+  .main-nav li a:hover,
+  .main-nav li a:active {
+    padding: 10px 0;
+    font-size: 100%;
+    display: block;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .app-screen {
+    width: 50%;
+  }
+  .works-steps p {
+    font-size: 90%;
+  }
+  .works-steps div {
+    padding-top: 7px;
+    height: 40px;
+    width: 40px;
+    font-size: 100%;
+  }
+  .works-steps {
+    margin-top: 30px;
+  }
+  .btn-app img {
+    height: 35px;
+    width: auto;
+  }
+  .icon-small {
+    width: 15px;
+  }
+  .city-features {
+    font-size: 90%;
+  }
+  blockquote {
+    text-align: justify;
+    padding: 2%;
+  }
+  blockquote:before {
+    font-size: 300%;
+    left: -2px;
+  }
+  .plan-price {
+    font-size: 250%;
+  }
+  .plan-box div {
+    padding: 10px;
+  }
+  footer {
+    font-size: 90%;
+  }
+  .mobile-nav-icon-btn {
+    color: black;
+  }
+}
+
+/*small tablet 768px-481px*/
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px;
+  }
+  .main-nav {
+    float: left;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 4%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+  .long-copy {
+    width: 96%;
+    margin-left: 2%;
+  }
+  h1 {
+    font-size: 170%;
+  }
+  h2 {
+    font-size: 130%;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+  .contact-form {
+    width: 90%;
+  }
+  footer {
+    padding-top: 15px;
+  }
+  footer p {
+    margin-top: 5px;
+  }
+  .mobile-nav-icon-btn {
+    color: black;
+  }
+}
+
+/*smallest tablet 480px-0*/
+@media only screen and (max-width: 480px) {
+  section {
+    padding: 25% 0;
+  }
+
+  .logo {
+    margin: 5px;
+  }
+  .main-nav {
+    margin-left: 5px;
+    display: none;
+  }
+  .contact-form {
+    width: 100%;
+  }
+}
